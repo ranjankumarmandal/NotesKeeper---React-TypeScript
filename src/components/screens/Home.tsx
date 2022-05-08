@@ -1,15 +1,8 @@
 import React, { useState } from 'react';
-
-interface State {
-  id: string;
-  title: string;
-  text: string;
-  color: string;
-  date: string;
-}
+import { Note } from '../../models/note.models';
 
 const Home = () => {
-  const [notes, setNotes] = useState<State[]>([
+  const [notes, setNotes] = useState<Note[]>([
     {
       id: new Date().toString(),
       title: 'Meetings',
