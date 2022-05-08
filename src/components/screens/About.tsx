@@ -9,7 +9,7 @@ const About = () => {
       <h5>
         Made By -{' '}
         <a
-          href='https://www.linkedin.com/in/ranjan-kumar-m-818567158/'
+          href='https://www.linkedin.com/in/ranjan-kumar-m-818367158/'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
