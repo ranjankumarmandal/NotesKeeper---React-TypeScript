@@ -1,6 +1,6 @@
 # About This App
 
-This is a frontend application, has been made with power of React.js and TypeScript, it is a simple online notes keeper application which can be very beneficial for developers when they are in hurry. Technologies used - HTML5, CSS3, TypeScript, React.js [React Cors (Components, props, state, events, passing props), React Hooks (useState, useEffect), React-Bootstrap for UI elements and some styling, JSON.
+This is a frontend application, has been made with the power of React.js and TypeScript, it is a simple online notes keeper application which can be very beneficial for developers when they are in hurry. Technologies used - HTML5, CSS3, TypeScript, React.js [React Cors (Components, props, state, events, passing props), React Hooks (useState, useEffect), React-Bootstrap for UI elements and some styling, JSON.
 
 Note - This is just a demo project. This can be used for educational purposes, can't be used for business purpose.
 
