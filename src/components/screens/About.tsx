@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='about'>
+    <div>
       <h1>About This App</h1>
       <h5>Version - 1.0.0</h5>
       <h5>Description - This is an online notes keeper Application</h5>
