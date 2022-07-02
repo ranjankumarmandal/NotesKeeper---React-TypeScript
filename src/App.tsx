@@ -10,7 +10,9 @@ function App() {
   return (
     <>
       <Header />
-      <Container></Container>
+      <Container>
+        <Router />
+      </Container>
     </>
   );
 }
