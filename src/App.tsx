@@ -10,13 +10,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <BrowserRouter>
+      {/* <Header />
+      <Container> */}
       <Switch>
-        <Header />
-        <Container>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-        </Container>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/about' component={About} />
       </Switch>
+      {/* </Container> */}
     </BrowserRouter>
   );
 }
