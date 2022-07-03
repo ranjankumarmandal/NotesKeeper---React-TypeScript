@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Note } from '../../models/note.models';
 import { Container, Row, Col } from 'react-bootstrap';
+import NotesList from '../utils/NotesList';
 
 const Home = () => {
   const [notes, setNotes] = useState<Note[]>([
