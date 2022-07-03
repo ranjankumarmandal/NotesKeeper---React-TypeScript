@@ -1,7 +1,7 @@
 import React from 'react';
 import { Note } from '../../models/note.models';
 
-const Notes = () => {
+const Notes = (props: Note) => {
   return <div>Notes</div>;
 };
 

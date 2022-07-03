@@ -9,3 +9,8 @@ export interface Note {
 export interface NotesListProps {
   notes: Note[];
 }
+
+export interface NoteProps {
+  key: string;
+  note: Note;
+}
