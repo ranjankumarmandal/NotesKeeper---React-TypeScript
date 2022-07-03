@@ -5,7 +5,7 @@ import { Button, Card } from 'react-bootstrap';
 const Notes = ({ note }: NoteProps) => {
   return (
     <div className='mb-3'>
-      <Card>
+      <Card style={{ backgroundColor: note.color }}>
         <Card.Body>
           <Card.Title>{note.title}</Card.Title>
           <Card.Text>{note.text}</Card.Text>
