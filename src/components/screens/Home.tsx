@@ -22,6 +22,9 @@ const Home = () => {
           <Col>
             <NotesList notes={notes} setNotes={setNotes} />
           </Col>
+          <Col>
+            <CreateNotes notes={notes} setNotes={setNotes} />
+          </Col>
         </Row>
       </Container>
     </>
