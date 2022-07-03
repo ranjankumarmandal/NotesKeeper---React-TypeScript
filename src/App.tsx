@@ -9,9 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <>
-      <Container>
-        <Router />
-      </Container>
+      <Router />
     </>
   );
 }
