@@ -8,13 +8,15 @@ import Container from '../components/utils/Container';
 const Router = () => {
   return (
     <BrowserRouter>
-      <Header />
-      <Container>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-        </Switch>
-      </Container>
+      <React.StrictMode>
+        <Header />
+        <Container>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+          </Switch>
+        </Container>
+      </React.StrictMode>
     </BrowserRouter>
   );
 };
