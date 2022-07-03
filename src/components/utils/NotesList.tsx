@@ -1,4 +1,5 @@
 import React from 'react';
+import { NotesListProps } from '../../models/note.models';
 
 const NotesList = () => {
   return (
