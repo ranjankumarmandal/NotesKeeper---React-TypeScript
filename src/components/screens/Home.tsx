@@ -19,7 +19,7 @@ const Home = () => {
       <Container>
         <Row>
           <Col>
-            <NotesList />
+            <NotesList notes={notes} />
           </Col>
         </Row>
       </Container>
