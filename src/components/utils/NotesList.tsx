@@ -3,6 +3,10 @@ import { NotesListProps } from '../../models/note.models';
 import Notes from './Notes';
 
 const NotesList = ({ notes }: NotesListProps) => {
+  const handleDelete = (id) => {
+    console.log('delete', id);
+  };
+
   const renderNotes = () =>
     notes.map((note) => <Notes key={note.id} note={note} />);
 
