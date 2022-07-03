@@ -5,3 +5,7 @@ export interface Note {
   color: string;
   date: string;
 }
+
+export interface NotesListProps {
+  notes: Note[];
+}
