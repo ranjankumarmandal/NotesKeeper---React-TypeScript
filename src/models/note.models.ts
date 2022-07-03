@@ -11,6 +11,5 @@ export interface NotesListProps {
 }
 
 export interface NoteProps {
-  key: string;
   note: Note;
 }
