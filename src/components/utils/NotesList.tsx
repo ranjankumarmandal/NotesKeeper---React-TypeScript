@@ -8,7 +8,9 @@ const NotesList = ({ notes }: NotesListProps) => {
   };
 
   const renderNotes = () =>
-    notes.map((note) => <Notes key={note.id} note={note} />);
+    notes.map((note) => (
+      <Notes key={note.id} note={note} handleDelete={handleDelete} />
+    ));
 
   return (
     <>
