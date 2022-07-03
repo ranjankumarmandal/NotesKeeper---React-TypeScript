@@ -8,6 +8,7 @@ const InvalidComponent = () => {
         Facing technical issue? connect with -{' '}
         <a
           href='https://www.linkedin.com/in/ranjan-kumar-m-818367158/'
+          target='_blank'
           style={{ textDecoration: 'none' }}
         >
           Ranjan Kumar Mandal
