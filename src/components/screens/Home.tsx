@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Note } from '../../models/note.models';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Home = () => {
   const [notes, setNotes] = useState<Note[]>([
@@ -12,7 +13,7 @@ const Home = () => {
     },
   ]);
 
-  return <div>{notes[0].id}</div>;
+  return <></>;
 };
 
 export default Home;
