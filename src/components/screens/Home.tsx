@@ -18,7 +18,9 @@ const Home = () => {
     <>
       <Container>
         <Row>
-          <Col>Hello</Col>
+          <Col>
+            <NotesList />
+          </Col>
         </Row>
       </Container>
     </>
