@@ -2,7 +2,7 @@ import React from 'react';
 
 const InvalidComponent = () => {
   return (
-    <>
+    <div>
       <h1>404 : Page Not Found</h1>
       <h3>
         Facing technical issue, connect with -{' '}
@@ -13,7 +13,7 @@ const InvalidComponent = () => {
           Ranjan Kumar Mandal
         </a>
       </h3>
-    </>
+    </div>
   );
 };
 
