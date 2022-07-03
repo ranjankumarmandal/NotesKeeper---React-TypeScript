@@ -1,7 +1,11 @@
 import React from 'react';
 
 const NotesList = () => {
-  return <div>NotesList</div>;
+  return (
+    <>
+      <h2 className='mt-3'>Notes</h2>
+    </>
+  );
 };
 
 export default NotesList;
