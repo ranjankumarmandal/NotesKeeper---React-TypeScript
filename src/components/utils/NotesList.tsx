@@ -15,6 +15,7 @@ const NotesList = () => {
 
   const handleDelete = (id: string) => {
     console.log('delete', id);
+    setNotes(notes.filter((note) => note.id !== id));
   };
 
   const renderNotes = () =>
