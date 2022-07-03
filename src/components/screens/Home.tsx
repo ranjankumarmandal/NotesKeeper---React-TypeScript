@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Note } from '../../models/note.models';
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import NotesList from '../utils/NotesList';
 
