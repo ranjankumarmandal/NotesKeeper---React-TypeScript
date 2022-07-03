@@ -1,8 +1,18 @@
-import React from 'react';
-import { NotesListProps } from '../../models/note.models';
+import React, { useState } from 'react';
+import { Note } from '../../models/note.models';
 import Notes from './Notes';
 
-const NotesList = ({ notes }: NotesListProps) => {
+const NotesList = () => {
+  const [notes, setNotes] = useState<Note[]>([
+    {
+      id: new Date().toString(),
+      title: 'Meetings',
+      text: 'Schedule Meeting with UI/UX Team',
+      color: '#dfdfdf',
+      date: new Date().toString(),
+    },
+  ]);
+
   const handleDelete = (id: string) => {
     console.log('delete', id);
   };
