@@ -4,7 +4,6 @@ import Notes from './Notes';
 
 const NotesList = ({ notes, setNotes }: NotesListProps) => {
   const handleDelete = (id: string) => {
-    console.log('delete', id);
     setNotes(notes.filter((note) => note.id !== id));
   };
 
