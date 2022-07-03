@@ -3,7 +3,8 @@ import { NotesListProps } from '../../models/note.models';
 import Notes from './Notes';
 
 const NotesList = ({ notes }: NotesListProps) => {
-  const renderNotes = () => notes.map((note) => <Notes />);
+  const renderNotes = () =>
+    notes.map((note) => <Notes key={note.id} note={note} />);
 
   return (
     <>
