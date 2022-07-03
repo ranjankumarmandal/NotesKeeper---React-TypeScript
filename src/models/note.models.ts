@@ -12,4 +12,5 @@ export interface NotesListProps {
 
 export interface NoteProps {
   note: Note;
+  handleDelete: (id: string) => void;
 }

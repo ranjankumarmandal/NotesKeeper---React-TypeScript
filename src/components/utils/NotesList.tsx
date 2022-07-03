@@ -3,7 +3,7 @@ import { NotesListProps } from '../../models/note.models';
 import Notes from './Notes';
 
 const NotesList = ({ notes }: NotesListProps) => {
-  const handleDelete = (id) => {
+  const handleDelete = (id: string) => {
     console.log('delete', id);
   };
 

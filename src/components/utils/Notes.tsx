@@ -2,7 +2,7 @@ import React from 'react';
 import { NoteProps } from '../../models/note.models';
 import { Button, Card } from 'react-bootstrap';
 
-const Notes = ({ note }: NoteProps) => {
+const Notes = ({ note, handleDelete }: NoteProps) => {
   return (
     <div className='mb-3'>
       <Card style={{ backgroundColor: note.color }}>
