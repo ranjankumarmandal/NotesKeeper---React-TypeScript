@@ -13,7 +13,15 @@ const Home = () => {
     },
   ]);
 
-  return <></>;
+  return (
+    <>
+      <Container>
+        <Row>
+          <Col>Hello</Col>
+        </Row>
+      </Container>
+    </>
+  );
 };
 
 export default Home;
