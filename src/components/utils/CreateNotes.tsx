@@ -53,7 +53,7 @@ const CreateNotes = ({ notes, setNotes }: NotesListProps) => {
           />
         </Form.Group>
         <Form.Group className='mb-3'>
-          <Form.Label htmlFor='colorInput'>Notes Color</Form.Label>
+          <Form.Label htmlFor='colorInput'>Notes Background Color</Form.Label>
           <Form.Control
             type='color'
             id='colorInput'
